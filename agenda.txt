@@ -1,0 +1,122 @@
+Agenda
+
+KL 
+UK 7:00 - 3:50
+DE 8:00 - 4:50
+
+
+
+
+
+8:00 -  8:30  Introduction to TDD Approach    25 min
+8:25 -  8:40  Pairing Approach / Introduction of 1. Excercise
+8:40 -  8:50  Excercise 1: Introduce yourself / answer icebreaker question
+8:50 -  9:30  Excercise 1: Doing the magic
+9:30 -  9:40  Return to main Thread for Retro 
+9:40 -  9:50  Break
+9:50 - 10:00  Introduction of Excercise 2 / RePair
+10:00 - 10:10  Excercise 2: Introduce yourself / answer icebreaker question
+10:10 - 10:50  Excercise 2: Doing the magic again
+10:50 - 11:00  Return to main Thread for Retro 
+11:00 - 11:10  Introduction of Excercise 3 / RePair
+11:10 - 11:20  Excercise 3: Introduce yourself / answer icebreaker question
+11:20 - 12:00  Excercise 2: Doing the magic again
+12:00 - 12:10  Return to main Thread for Retro 
+12:10 pm - 1:00 pm Extended Lunch / Dinner Break
+01:00 - 01:10  Introduction of Excercise 4 / RePair
+01:10 - 01:20  Excercise 2: Introduce yourself / answer icebreaker question
+01:20 - 02:00  Excercise 2: Doing the magic again
+20:00 - 02:10  Return to main Thread for Retro 
+Coffee Break  20 min
+ 2:30 -  2:40  Introduction of Excercise 2 / RePair
+ 2:40 -  2:50  Excercise 2: Introduce yourself / answer icebreaker question
+ 2:50 -  3:30  Excercise 2: Doing the magic again
+ 3:30 -  3:40  Return to main Thread for Retro 
+ 3:40 -  4:20  General Retro / Feedback / Q/A Session
+
+
+
+
+-------------
+Motivation / Target
+
+Why do we do TDD?
+
+What is the objective for today?
+- get hands on TDD and get some practice
+  (not: showing every library out there but demonstrating the principles)
+- 
+
+
+Show one complete cycle
+- Show that test is failing
+- Write the simplest code that will make the test pass
+- Refactor
+
+
+Topics to include in this cycle
+- Single Responsibilty
+- Isolation
+- Naming Testcases so that you can easily identify the corresponding code if a testcase fails
+  if name is too long: is your method doing just one thing?
+-------------
+
+
+how do we do the pairing
+- Junior shoud pair with senior
+- use a language you know (one of your top 3 favorite languages)
+- 
+
+
+
+ 1. Excercise + 2nd Excercise:
+
+Write a program that pairs / shuffles developers  based on language / experience   -> important that you perform the registration Please give us your codename
+expted outcome
+
+Responsibility: Load the data (simple: String, complex: csv)
+Apply Rules:
+Ideal Pair is 2 (no pairs of one person -> distribute person to another team)
+Skill-Levels (1 advanced   2 working knowledge 3 starter)
+Each developers names up to three languages (not more)
+Both developers in a pair know the same language
+There is no 2 seniors in the same pair (same language)
+There is no 2 juniors in the same pair (same language)
+
+
+3rd Excercise
+expose your service via an http endpoint (locally)
+
+we prepare a running dockerized sample which can be used as a fallback if the teams service is not running
+
+4th Excercise
+test and build your own serviceclient which
+call the shuffleservice which returns the pairs (receive som json with pairs, indivdual team member names)
+Get on Pairs Endpoint
+Get on Rooms Endpoint
+Assign Pairs to Rooms
+Post Assignments to Rooms 
+             Room1: Pair1: Person A, Person B
+Returns unique resource
+
+post request to
+
+
+
+
+
+In each round
+- have some icebreaker question for every round  (get from Erin Hokanson)
+- shorty introduce yourself, your background, expecations ...  5-10 min
+
+- programming / writing tests               40 min
+- return to main thread and perform retro   10 min  (use retroboard)
+
+
+
+
+
+
+
+
+
