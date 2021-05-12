@@ -3,7 +3,7 @@ Agenda
 KL 
 UK 7:00 - 3:50
 DE 8:00 - 4:50
-
+BG 9:00 - 5:50
 
 
 
@@ -69,10 +69,22 @@ how do we do the pairing
 
 
 
- 1. Excercise + 2nd Excercise:
+ 1. Excercise: First write the test, make sure it fails. Only write code to pass the test. Once it passes consider refactoring.
 
 Write a program that pairs / shuffles developers  based on language / experience   -> important that you perform the registration Please give us your codename
 expted outcome
+
+Apply Rules:
+Ideal Pair is 2 (if there is no match there could be a team of one person)
+Skill-Levels (1 advanced   2 working knowledge 3 starter)
+Each developers names up to three languages (not more)
+Both developers in a pair know the same language
+There is no 2 seniors in the same pair (same language)
+There is no 2 juniors in the same pair (same language)
+
+2nd Excercise: Single responsibility.
+
+Write a program that pairs / shuffles developers  based on language / experience.
 
 Responsibility: Load the data (simple: String, complex: csv)
 Apply Rules:
@@ -83,24 +95,20 @@ Both developers in a pair know the same language
 There is no 2 seniors in the same pair (same language)
 There is no 2 juniors in the same pair (same language)
 
+3rd Excercise: Take turns - one person writes the tests the oter person makes the simplest possible implementation to pass.
+Always the same person writes the tests. Once a failing test is written it is the other persons turn.
+Always the same person writes the code to make all tests pass. 
+Refactor together.
 
-3rd Excercise
-expose your service via an http endpoint (locally)
+(Same task as before)
 
-we prepare a running dockerized sample which can be used as a fallback if the teams service is not running
+4th Excercise: Data isolation
+Initally write all your implementations to pass the test/s inside the test itself.
+Extract a method/function only if you identify a duplicate code in the refactoring phase.
+Make a class only when you need to keep a state.
 
-4th Excercise
-test and build your own serviceclient which
-call the shuffleservice which returns the pairs (receive som json with pairs, indivdual team member names)
-Get on Pairs Endpoint
-Get on Rooms Endpoint
-Assign Pairs to Rooms
-Post Assignments to Rooms 
-             Room1: Pair1: Person A, Person B
-Returns unique resource
-
-post request to
-
+Same task as 2nd Excercise, but we add one more requirement:
+Consequitive runs should not produce the same pairs if possible.
 
 
 
